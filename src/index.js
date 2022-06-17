@@ -2,12 +2,12 @@ import React from './lib/react';
 import ReactDom from './lib/react-dom';
 
 class App extends React.Component {
-handleClick(){
+    handleClick() {
 
-}
+    }
 
-    render(){
-        return(
+    render() {
+        return (
             <div>
                 <span onClick={this.handleClick}>hello</span>
             </div>
@@ -15,4 +15,4 @@ handleClick(){
     }
 }
 
-ReactDom.render((<App>hello</App>),document.body)
+ReactDom.render((<App>hello</App>), document.body)
